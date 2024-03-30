@@ -3,36 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adaptive</title>
+  <title>Rick-&-Morty</title>
   <!-- WIDTH 1920PX-->
-  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/desktop.css">
   <!-- WIDTH 1000PX -->
-  <link rel="stylesheet" href="./style/adaptiv.css">
+  <link rel="stylesheet" href="./style/laptop_table.css">
   <!-- WIDTH 600PX -->
-  <link rel="stylesheet" href="./style/respon.css">
+  <link rel="stylesheet" href="./style/mobile_phone.css">
 </head>
 <body>
   <div class="wrapper">
     <div class="box">
-      <header class="header">
+      <header class="header open">
         <div class="header__logo">
-          <img class="header__logo__img" src="./img/rick-and-morty-morty-rick-and-morty-svg-free-stencil-poster-advertisement-halloween-transparent-png-212315.png" alt="">
-          <p class="header__logo__text">Rick-&-Morty</p>
+          <a href="./index.html">
+            <img class="header__logo__img" src="./img/rick-and-morty-morty-rick-and-morty-svg-free-stencil-poster-advertisement-halloween-transparent-png-212315.png" alt="">
+          </a>
+          <a href="./index.html">
+            <p class="header__logo__text">Rick-&-Morty</p>
+          </a>
         </div>
+        <button class="header__burger-btn" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
         <div class="header__menu">
           <ul class="header__menu__ul">
             <li class="header__li">Home</li>
-            <li class="header__li">Careers</li>
-            <li class="header__li">About</li>
-            <li class="header__li">Security</li>
+            <li class="header__li">Characters</li>
+            <li class="header__li">Locations</li>
+            <li class="header__li">Episodes</li>
           </ul>
         </div>
         <div class="header__sign__up">
-          <button class="sing__up">Sing Up</button>
+          <button class="sing__up" id="button__them">white</button>
           <button class="login">Login</button>
         </div>
       </header>
+      <main class="main">
+        <div class="content">
+          <section class="section__1">
+            
+          </section>
+        </div>
+      </main>
     </div>
   </div>
+  <script src="./js/code.js"></script>
 </body>
 </html>
